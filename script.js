@@ -171,3 +171,5 @@ console.log(val);*/
 // //sayfanın refreshi olmamsı için ahrefteki hrefi yok saymak için prevent kullanıldı.
 // btn.addEventListener('click',btnClick);
 // console.log(btn);
+
+//testtt
