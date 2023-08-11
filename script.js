@@ -173,3 +173,66 @@ console.log(val);*/
 // console.log(btn);
 
 //testtt2
+
+
+//#################Event Listener Mouse Events
+
+//  const btn = document.querySelector('#subBTN');
+//  const division = document.querySelector('#subject');
+//  const header = document.querySelector('#header');
+
+// //click
+// btn.addEventListener('click',mouseCatch);
+// //doubleclick
+// division.addEventListener('dblclick',mouseCatch);
+// //mouse down
+// division.addEventListener('mousedown',mouseCatch);
+// //mouseup
+// division.addEventListener('mouseup',mouseCatch);
+// //mouse enter
+// division.addEventListener('mouseenter',mouseCatch);
+// //mouse leave
+// division.addEventListener('mouseleave',mouseCatch);
+// //mouse over
+// division.addEventListener('mouseover',mouseCatch);
+// //mouse out
+// division.addEventListener('mouseout',mouseCatch);
+// // out ve leave arasındaki farkı. Out Kendi altındaki elemanlarda 
+// // gerçekleşir leave gerçekleşmez. leave için tamamen farklı bir dive geçmek gerek.
+
+
+//mouse move
+// division.addEventListener('mousemove',mouseCatch);
+// // mouseun sürekli hareket ettiğini yakalamak için kullanılır.
+// division.addEventListener('mousemove',mouseCatch);
+// function mouseCatch(e){
+    
+//     header.textContent = `Mouse X: ${e.offsetX}
+//     Mouse Y: ${e.offsetY}` 
+//     console.log(`event type: ${e.type}`);
+//     e.preventDefault();
+// }
+
+//#################Keyboard Events
+//const inputName = document.querySelector('#fname');
+//keydown,keyup
+// inputName.addEventListener('keydown',keyCatch);
+// inputName.addEventListener('keyup',keyCatch);
+
+// inputName.addEventListener('keypress',keyCatch);
+// inputName.addEventListener('focus',keyCatch);
+// inputName.addEventListener('blur',keyCatch2);
+//focus oldugunda mavi olcak cıktıgında beyaz
+// function keyCatch(e)
+// {
+//     // console.log(`Keyboard Event Type: ${e.type}`);
+//     // console.log(`Key Code: ${e.keyCode}`);
+//     console.log(`Value: ${e.target.value}`);
+//     e.target.style.backgroundColor = 'blue';
+// }
+
+// function keyCatch2(e)
+// {
+  
+//     e.target.style.backgroundColor = 'white';
+// }
