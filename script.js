@@ -236,3 +236,20 @@ console.log(val);*/
   
 //     e.target.style.backgroundColor = 'white';
 // }
+
+//################# ES5 
+
+// let Es5 = function(){
+//     console.log('Merhaba Es5');
+// }
+// Es5();
+
+//################# ES6 ################# 
+let Es6 = () => {
+    console.log('Merhaba Es6');
+}
+Es6();
+let paramEs6 = (a,b) => {
+    return a*b;
+}
+console.log(paramEs6(3,4));
